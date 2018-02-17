@@ -3,7 +3,6 @@
  */
 function Triangle(sides){
     [this.a, this.b, this.c] = sides;
-
 }
 
 Triangle.prototype.isEquilateral = function(){
@@ -24,6 +23,6 @@ Triangle.prototype.printProperties = function(){
         this.isIsosceles()      ? console.log('Isosceles!') :
         this.isScalene()        ? console.log('Scalene!') :
                                   console.log('Not really special :/');
-}
+};
 
 module.exports = Triangle;
